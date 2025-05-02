@@ -1,0 +1,181 @@
+.container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+  
+
+    flex-direction: column;
+    form{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        input{
+            padding: 7px 10px;
+        }
+        button{
+            width: 14%;
+            border-radius: 20px;
+            background-color: blue;
+            color: white;
+            padding: 7px 10px;
+            border: 0;
+            cursor: pointer;
+        }
+    }
+    .table{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 12px;
+        tbody{
+            tr{
+             width: 40%;
+             td{
+        width: 40%;
+         img{
+                    width: 40%;
+                }
+                h2{
+                    font-size: 18px;
+                    text-align: center;
+                }
+                span{
+                    font-size: 18px;
+                }
+                button{
+                    width: 100%;
+                    border-radius: 20px;
+                    background-color: blue;
+                    color: white;
+                    padding: 7px 10px;
+                    border: 0;
+                    cursor: pointer;
+                }
+             }
+               
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .container{
+        width: 100%;
+     height: auto;
+        form{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: 12px;
+            input{
+                padding: 7px 10px;
+                width: 80%;
+            }
+            button{
+                width: 50%;
+                
+            }
+        }
+        .table{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 12px;
+            tbody{
+                tr{
+                 width: 90%;
+                 td{
+            width: 40%;
+             img{
+                        width: 50%;
+                    }
+                    h2{
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                    button{
+                        width: 100%;
+                        border-radius: 20px;
+                        background-color: blue;
+                        color: white;
+                        padding: 7px 10px;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                 }
+                   
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+    .container{
+        width: 100%;
+     height: auto;
+        form{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            row-gap: 12px;
+            input{
+                padding: 7px 10px;
+                width: 80%;
+            }
+            button{
+                width: 40%;
+                
+            }
+        }
+        .table{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 12px;
+            tbody{
+                tr{
+                 width: 90%;
+                 td{
+            width: 40%;
+             img{
+                        width: 50%;
+                    }
+                    h2{
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                    span{
+                        font-size: 12px;
+                    }
+                    button{
+                        width: 100%;
+                        border-radius: 20px;
+                        background-color: blue;
+                        color: white;
+                        padding: 7px 10px;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                 }
+                   
+                }
+            }
+        }
+    }
+    
+}
